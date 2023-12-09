@@ -74,12 +74,12 @@ ul {
     margin: 0;
     color: rgb(255, 255, 255);
     padding-bottom: 15px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.178);
 }
 li {
     display: block;
     color: white;
     text-align: center;
-    padding: 10x;
+    padding: 12x;
     text-decoration: none;
   }
