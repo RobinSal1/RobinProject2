@@ -74,7 +74,7 @@ ul {
     margin: 0;
     color: rgb(255, 255, 255);
     padding-bottom: 15px;
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgba(26, 28, 177, 0.993);
 }
 li {
     display: block;
@@ -82,4 +82,5 @@ li {
     text-align: center;
     padding: 12x;
     text-decoration: none;
+    padding-top: 2px;
   }
