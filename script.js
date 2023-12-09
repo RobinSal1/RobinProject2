@@ -27,5 +27,5 @@ function showRates() { // showrates function
     xhr.send(); // Sends the XMLHttpRequest to the currency conversion API
 }
 
-const convertButton = document.getElementById('convertButton');
-convertButton.addEventListener('click', showRates);
+const convertButton = document.getElementById('convertButton'); //Gets the Html element with the convertButton and stores in in the convertButton variable
+convertButton.addEventListener('click', showRates); //This triggers the ShowRates Function when the button is clicked
