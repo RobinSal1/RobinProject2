@@ -1,8 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {  //listens for DOM event that has been fully loaded
-    const convertButton = document.getElementById('convertButton'); //gets the button element with the 'convertButton' id
-    convertButton.addEventListener('click', showRates); // The button has now a event listener that activates the 'showRates function'
-});
-
 function showRates() { // showrates function
     let amount = document.getElementById('amountInput').value; // Get user inputed value
 
@@ -31,3 +26,6 @@ function showRates() { // showrates function
     };
     xhr.send(); // Sends the XMLHttpRequest to the currency conversion API
 }
+
+const convertButton = document.getElementById('convertButton');
+convertButton.addEventListener('click', showRates);
