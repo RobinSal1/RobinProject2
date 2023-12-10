@@ -3,7 +3,7 @@ function showRates() { // showrates function
 
     // Create XMLHttpRequest and handle the response
     let xhr = new XMLHttpRequest(); //activate the HHTP request
-    xhr.open('GET', 'https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_oq1A4Y9nMCPWlD7qVCsPDVIwpbrmsb9b57M5Qdvp&currencies=USD%2CCAD%2CSEK%2CNZD%2CAUD&base_currency=EUR', true); // HTTP Request methdo is 'GET'. The URL endpoint specifies the API api parameters like the key,currencies and currency
+    xhr.open('GET', 'https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_oq1A4Y9nMCPWlD7qVCsPDVIwpbrmsb9b57M5Qdvp&currencies=USD%2CCAD%2CSEK%2CNZD%2CAUD&base_currency=EUR', true); // HTTP Request method is 'GET'. The URL endpoint specifies the API api parameters like the key,currencies and currency
     
     xhr.onload = function() { //Defines the next step when the XMLHttpRequesT load response is activated
 
